@@ -2,6 +2,10 @@
 
 top to bottom direction
 
+class Teste {
+  constructor()
+}
+
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
