@@ -26,6 +26,10 @@ class AlertaAbsoluto {
   constructor(desc, hor)
 }
 
+class Teste2 {
+  + string atributo1
+}
+
 Alerta <|-- AlertaRelativo
 Alerta <|-- AlertaAbsoluto
 
