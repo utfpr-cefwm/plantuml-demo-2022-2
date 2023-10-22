@@ -2,11 +2,7 @@
 
 top to bottom direction
 
-class Teste {
-  constructor()
-}
-
-class Alerta <<abstract>> {
+class AlertaBase <<abstract>> {
   - number timerHandler
   + Date horario
   + boolean absoluto
@@ -21,10 +17,6 @@ class AlertaRelativo {
   constructor(desc, horExpr)
   + ajustar(horExpr)
   + string: getTempoRestante()
-}
-
-class Teste2 {
-  + string atributo1
 }
 
 Alerta <|-- AlertaRelativo
